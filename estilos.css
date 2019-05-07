@@ -15,4 +15,47 @@
 
 h1 {
     color: white;
+    margin: 0;
 }
+
+
+.skills,
+.acerca-de-mi{
+    padding: 80px 0;
+    display: flex;
+}
+.acerca-de-mi img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.acerca-de-mi div{
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.acerca-de-mi div:last-child {
+    text-align: center;
+}
+
+.contacto {
+    padding: 80px 0;
+}
+
+.contacto-contenido {
+    display: flex;
+}
+
+.contacto-contenido div {
+    box-sizing: border-box;
+    width: 50%;
+}
+.contacto-contenido ul {
+    list-style: initial;
+}
+
+.contacto-contenido li {
+    font-size: 22px;
+    text-align: right;
+  }
